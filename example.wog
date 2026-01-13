@@ -1,0 +1,29 @@
+// Validate input and throw error on false condition
+And God said
+
+Let there be input 2:1
+Let there be valid 1:1
+
+// Set input value
+Thou shalt input And 42
+
+// Set valid = true
+Thou shalt valid Verily, verily
+
+// If NOT valid, jump to error_handler
+Ye shall not valid, go ye unto error_handler
+
+// Success path
+Behold "Validation passed!"
+Behold input
+Go ye unto success_end
+
+// Error handler - this never executes in this run
+error_handler 0:1
+Woe unto "Input validation failed: value was invalid"
+
+// Success exit
+success_end 0:2
+Behold "Program completed successfully"
+
+And it came to pass

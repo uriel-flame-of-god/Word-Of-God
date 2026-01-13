@@ -1,0 +1,27 @@
+{
+  "name": "word-of-god-syntax",
+  "publisher": "debaditya",
+  "displayName": "Word of God Syntax Highlighting",
+  "description": "Syntax highlighting for Word of God (.wog) esoteric language",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "wog",
+        "aliases": ["Word of God", "wog"],
+        "extensions": [".wog"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "wog",
+        "scopeName": "source.wog",
+        "path": "./syntaxes/wog.json"
+      }
+    ]
+  }
+}
